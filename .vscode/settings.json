@@ -1,0 +1,10 @@
+{
+    "python.pythonPath": "/home/hyu/my_streamlit_app/myenv/bin/python3",
+    "python.defaultInterpreterPath": "/home/hyu/my_streamlit_app/myenv/bin/python3",
+    "python.analysis.extraPaths": ["/home/hyu/my_streamlit_app/myenv/lib/python3.12/site-packages"],
+    "python.languageServer": "Pylance",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.venvPath": "/home/hyu/my_streamlit_app/myenv",
+    "python.venvFolders": ["myenv"]
+}
