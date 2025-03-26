@@ -6,8 +6,10 @@ from dotenv import load_dotenv
 # .env 파일에서 환경 변수 로드
 load_dotenv()
 
-# API 키 가져오기
-api_key = os.getenv("OPENAI_API_KEY")
+# API 키 가져오기(getenv) api_key = os.getenv("OPENAI_API_KEY")
+
+# API 키 가져오기 (st.secrets)
+api_key = st.secrets["OPENAI_API_KEY"]
 
 # OpenAI 클라이언트 생성
 if api_key:
